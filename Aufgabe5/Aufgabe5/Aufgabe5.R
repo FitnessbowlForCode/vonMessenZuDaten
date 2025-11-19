@@ -40,7 +40,10 @@ print(paste("Anteil der Flüge mit Wind > 40 mph: ",
 # Windgeschwindigkeit typischerweise Flüge ausfallen und legen Sie basierend auf dieser Recherche einen Grenzwert
 # fest. Wie viele Flüge hätten auf Basis des festgelegten Grenzwertes ausfallen müssen?
 
-## Antwort: Die Fragestellung kann mit den vorliegenden Daten nicht beantwortet werden, da es diesen einen Windgeschindigkeitswert nicht gibt!
+## Antwort: Die Fragestellung kann mit den vorliegenden Daten nicht beantwortet werden.
+# Soweit ich recherschieren konnte, hängt beiepielsweise der Abbruch eines Starts von vielen Faktoren ab.
+# Herstellerangaben vom Flugzeug, Seitenwind, Seitenböhen, Rollbahnbeschaffenheit, Vorschriften der Flugsicherung(da wir in den USA sind ist die FAA zuständig), usw.
+
 # Ich nehme mir 40mph beim Parameter wind_speed als Grenzwert heraus.
 # 31 Flüge hätten auf Basis des Grenzwertes ausfallen müssen.
 
